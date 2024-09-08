@@ -1,0 +1,223 @@
+.section {
+    padding: 100px 20px;
+    text-align: center;
+  }
+  
+  #home {
+    background-color: #f1f1f1;
+  }
+  
+  #about {
+    background-color: #e1e1e1;
+  }
+  
+  #services {
+    /* background-color: #625b5b; */
+    background-image: url("assets/imgs/services.avif");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+  
+  #contact {
+    background-color: #c1c1c1;
+  }
+
+.video-container {
+  position: relative;
+  width: 100%;
+  height: 100vh;
+  overflow: hidden;
+  display: flex;
+  justify-content: start;
+  align-items: center;
+}
+
+.background-video {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  object-fit: cover; 
+  z-index: 0; 
+}
+
+
+.overlay-content {
+  position: relative;
+  z-index: 1; 
+  color: white; 
+  margin-left: 2%;
+  
+
+}
+
+.overlay-content h1 {
+    font-size: 3rem;
+    margin-bottom: 1rem;
+  }
+  
+  /* Style the tagline */
+  .overlay-content p {
+    font-size: 1rem; 
+    margin-bottom: 2rem;
+  }
+  
+  
+  .btn-primary {
+    background-color: #007bff; 
+    color: white;
+    padding: 0.75rem 1.5rem;
+    border-radius: 5px;
+    text-decoration: none;
+    font-size: 1rem;
+    transition: background-color 0.3s ease;
+  }
+  
+  .btn-primary:hover {
+    background-color: #0056b3; 
+  }
+  
+  /* Style the contact info */
+  .contact-info {
+    margin-top: 2rem;
+  }
+  
+  .contact-info p {
+    font-size: 1rem; 
+    margin: 0.5rem 0;
+  }
+/* About Section Styles */
+.about-section {
+    padding: 4rem 1rem; 
+    background-color: #f8f9fa; 
+    color: #333; 
+    text-align: center; 
+}
+
+.about-section .container {
+    max-width: 800px; 
+    margin: 0 auto;
+}
+
+.about-section h1 {
+    font-size: 2.5rem; 
+    margin-bottom: 1.5rem;
+}
+
+.about-section p {
+    font-size: 1.125rem; 
+    line-height: 1.6; 
+    margin-bottom: 1rem; 
+}
+
+@media (max-width: 768px) {
+    .about-section h1 {
+        font-size: 2rem; 
+    }
+
+    .about-section p {
+        font-size: 1rem; 
+    }
+}
+   /* Services slider */
+   .services-slider-container {
+    position: relative;
+    overflow: hidden;
+    padding: 20px 0;
+}
+.services-slider {
+    display: flex;
+    transition: transform 0.3s ease;
+}
+.service-card {
+    flex: 0 0 300px;
+    background-color: #fff;
+    border-radius: 8px;
+    box-shadow: 0 4px 6px rgba(0,0,0,0.1);
+    padding: 30px;
+    margin-right: 20px;
+}
+.service-icon {
+    font-size: 3rem;
+    color: #3498db;
+    margin-bottom: 20px;
+}
+.service-title {
+    font-size: 1.5rem;
+    margin-bottom: 15px;
+    color: #2c3e50;
+}
+.service-description {
+    margin-bottom: 20px;
+    color: #7f8c8d;
+}
+.service-button {
+    display: inline-block;
+    background-color: #3498db;
+    color: #fff;
+    padding: 10px 20px;
+    border-radius: 5px;
+    text-decoration: none;
+    transition: background-color 0.3s ease;
+}
+.service-button:hover {
+    background-color: #2980b9;
+}
+
+/* Slider navigation */
+.slider-nav {
+    text-align: center;
+    margin-top: 20px;
+}
+.slider-nav-button {
+    background-color: #3498db;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    margin: 0 10px;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+.slider-nav-button:hover {
+    background-color: #2980b9;
+}
+
+/* Footer styles */
+.footer-main {
+    background-color: #2c3e50;
+    color: #ecf0f1;
+    text-align: center;
+    padding: 20px 0;
+}
+.footer-text {
+    margin: 0;
+}
+
+/* Responsive design */
+@media (max-width: 768px) {
+    .service-card {
+        flex: 0 0 260px;
+    }
+}
+ .main-container {
+            width: 90%;
+            max-width: 1200px;
+            margin: 0 auto;
+            padding: 0 20px;
+        }
+
+        /* Header styles */
+        .header-main {
+            background-color: #fff;
+            box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+            padding: 20px 0;
+        }
+        .header-title {
+            color: #333;
+            font-size: 2rem;
+            margin: 0;
+        }
+
